@@ -7,7 +7,6 @@ def homepage():
     return render_template("homepage.html")
 
 @app.route("/usuario/<usuario>")
-@login_required
 def usuario(usuario):
     return render_template("usuario.html", usuario=usuario)
 
