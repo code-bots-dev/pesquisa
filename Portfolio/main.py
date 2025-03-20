@@ -13,3 +13,5 @@ def usuario(usuario):
 @app.route("/pesquisaexperiencia")
 def pesquisa():
     return render_template("pesquisaexper.html")
+
+app.run()
